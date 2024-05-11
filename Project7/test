@@ -1,0 +1,57 @@
+# string = "please enter your word here"
+
+# lst_str = string.split(' ')
+# join_str = " ".join(lst_str)
+# print(lst_str)
+# print(join_str)
+# len_lst  = len(lst_str)
+
+# print(len_lst)
+
+# string_cap = []
+
+# for i in range(len(lst_str)):
+#     if i % 2 == 0:                           
+#         string_cap += lst_str[i].upper()     
+#     else:                                     
+#         string_cap += lst_str[i].lower()
+
+# # return(string_cap.join( ))
+
+# print(string_cap)
+
+
+
+# # i = 0
+# string_cap = []
+# for x in lst_str:
+#     if i % 2 == 0:
+#         string_cap.append(x.upper())
+#     else:
+#         string_cap.append(x)
+#     i = int(not i)
+
+# # print(" ".join(string_cap))# 
+# print(string_cap)
+
+stock = {"BLT": 12,
+         "Chips": 20,
+         "Fish": 8,
+         "Watermelon": 4}
+price = {"BLT": 3,
+         "Chips": 1.2,
+         "Fish": 3.8,
+         "Watermelon": 2.4}
+ 
+# # printing original dictionaries 
+# print("The original dictionary 1 : " + str(test_dict1))
+# print("The original dictionary 2 : " + str(test_dict2))
+ 
+# Using dictionary comprehension + keys()
+# Dictionary Keys Product
+total_stock = {key: price.get(key) * stock.get(key) 
+for key in stock.keys()}
+ 
+# printing result 
+print("The product dictionary is : " + str(total_stock))
+
