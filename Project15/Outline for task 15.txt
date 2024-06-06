@@ -1,0 +1,29 @@
+Create a task manager where users can add tasks 
+and jobs that need to be completed.
+
+Each employee has a profile where their tasks are displayed.
+Employees can assign tasks for themselves and others.
+There should be an admin that has full acsess to the program.
+
+Admin
+Standard user
+Guest
+
+Register an account
+Login
+Logout
+Reset password
+Create tasks
+View Tasks
+Delete Tasks
+Update tasks
+
+User- Needs to login
+
+Controller - Allows the user to create, read, update and delete tasks
+
+View - Only able to see tasks
+
+Task - Have acsess to create, read, update and delete tasks
+
+Database - saves and stores updates
