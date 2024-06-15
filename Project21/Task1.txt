@@ -1,0 +1,9 @@
+1. Normalisation is a process for evaluating and corretion table structures to lower data redundancies, lowering the chance of anomalies.
+
+2. 1NF is the first stage of normal form, used to eliminate repeating groups usually through the removal of null values.
+
+3. 2NF is the second stage of normal form, this stage is used to remove partial dependencies.
+
+4. 3NF is the third stage of normal form, this stage is used to remove all transitive dependencies
+
+5. Foreign keys are columns that link to the primary key columns in other tables

@@ -1,0 +1,28 @@
+Get
+Request Line:
+Get /search?query=searchterm HTTP/1.1
+
+
+Headers:
+Host: www.yourwebsite.com
+User-Agent: User-Agent Mozilla/5,0 (windows NT
+10.0; win64; x64)
+
+Body:
+Nothing as parameters are in URL of get request
+
+
+Post
+Request Line:
+POST /submit HTTP/1.1
+
+Headers:
+Host: localhost
+User-Agent: mozilla/5.0 (windows NT 10.0; Win64;
+x64)
+Content-Type: application/x-www-form-urlencoded
+content-length: 93
+
+Body:
+name=dave&email=dave@gmail.com&recommendation=Ple
+ase+add+more+on+what+you+did+on+the+bootcamp.
