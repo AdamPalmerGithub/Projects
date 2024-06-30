@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+    <title>{% block title %}My Sticky Note App{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'posts/styles.css' %}">
+</head>
+<body>
+
+    <header>
+        <h1>{% block header %}My Sticky Note App{% endblock %}</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'post_list' %}">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>2024 My Django Sticky Note App.</p>
+    </footer>
+
+</body>
+</html>

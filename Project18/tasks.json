@@ -1,0 +1,30 @@
+[
+    {
+        "task_id": 3,
+        "subject": "please work",
+        "contact": "jesus",
+        "description": "i prey to the coding gods on thisone and thank ",
+        "status": "Closed"
+    },
+    {
+        "task_id": 1,
+        "subject": "Friday meeting",
+        "contact": "John Doe",
+        "description": "Meeting about magic",
+        "status": "Ongoing"
+    },
+    {
+        "task_id": 2,
+        "subject": "Lunch thief",
+        "contact": "steve mc'queen",
+        "description": "I know you keep stealing my lunch John",
+        "status": "Ongoing"
+    },
+    {
+        "task_id": 4,
+        "subject": "k",
+        "contact": "k",
+        "description": "k",
+        "status": "Ongoing"
+    }
+]
