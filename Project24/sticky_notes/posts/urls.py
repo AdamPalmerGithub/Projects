@@ -1,3 +1,4 @@
+'''Urls for the post application'''
 from django.urls import path
 from .views import post_list, post_detail, post_create, post_update, post_delete
 

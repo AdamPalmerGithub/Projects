@@ -1,3 +1,4 @@
+'''forms for post application'''
 from django import forms
 from .models import Post
 
@@ -14,5 +15,7 @@ form.
     :param forms.ModelForm: Django's ModelForm class.
     """
     class Meta:
+        '''Meta options for the PostForm,
+          specifying the model and fields to include.'''
         model = Post
         fields = ['title', 'content', 'author']

@@ -1,3 +1,4 @@
+<!-- html listing the posts with a delete function -->
 {% extends 'base.html' %}
 
 {% block title %}Sticky Note - {{ page_title }}{% endblock %}
@@ -9,6 +10,7 @@
             <li class="post">
                 <a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a>
                 <p>{{ post.content }}</p>
+                <a href="{% url 'post_delete' pk=post.pk %}">Delete</a>
             </li>
         {% endfor %}
     </ul>

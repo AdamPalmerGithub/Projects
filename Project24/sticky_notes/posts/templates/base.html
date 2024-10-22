@@ -1,3 +1,4 @@
+<!-- Describes the header and footer for each page -->
 {% load static %}
 
 <!DOCTYPE html>
@@ -16,6 +17,7 @@ initial-scale=1.0">
         <nav>
             <ul>
                 <li><a href="{% url 'post_list' %}">Home</a></li>
+                <li><a href="{% url 'post_create' %}">Create Note</a></li>
             </ul>
         </nav>
     </header>
